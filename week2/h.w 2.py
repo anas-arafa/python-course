@@ -1,0 +1,5 @@
+liverpoolScoresWins=int(input("enter the_number of wins"))
+liverpoolScoresDraws=int(input("enter the number of draws"))
+liverpoolScoresLosses=int(input("enter the number of losses"))
+points=((liverpoolScoresWins*3)+liverpoolScoresDraws)
+print(points)
